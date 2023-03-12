@@ -45,12 +45,14 @@
     "test": "vitest",
     "typecheck": "tsc --noEmit"
   },
+  "peerDependencies": {
+    "@webcontainer/api": "^1.0.2"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.3",
     "@antfu/ni": "^0.20.0",
     "@antfu/utils": "^0.7.2",
     "@types/node": "^18.14.1",
-    "@webcontainer/api": "^1.0.2",
     "bumpp": "^9.0.0",
     "eslint": "^8.34.0",
     "esno": "^0.16.3",
