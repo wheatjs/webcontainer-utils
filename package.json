@@ -1,18 +1,17 @@
 {
-  "name": "pkg-name",
+  "name": "webcontainer-utils",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@7.12.0",
   "description": "",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "author": "Jacob Clevenger <jacobrclevenger@gmail.com>",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/antfu/pkg-name#readme",
+  "homepage": "https://github.com/wheatjs/webcontainer-utils#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/pkg-name.git"
+    "url": "git+https://github.com/wheatjs/webcontainer-utils.git"
   },
-  "bugs": "https://github.com/antfu/pkg-name/issues",
+  "bugs": "https://github.com/wheatjs/webcontainer-utils/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
@@ -51,6 +50,7 @@
     "@antfu/ni": "^0.20.0",
     "@antfu/utils": "^0.7.2",
     "@types/node": "^18.14.1",
+    "@webcontainer/api": "^1.0.2",
     "bumpp": "^9.0.0",
     "eslint": "^8.34.0",
     "esno": "^0.16.3",
