@@ -4,6 +4,12 @@
 
 `webcontainer-utils` is a small utility package for [WebContainers](https://webcontainers.io/). Currently there are only a small number of utils. More will be added in the future. If you have any suggestions feel free to open an issue or a PR!
 
+## 📦 Install
+
+```bash
+npm i webcontainer-utils
+```
+
 ## `convertRawGlobImportToFileSystemTree()`
 
 Converts a [Vite raw glob import](https://vitejs.dev/guide/features.html#glob-import-as) into Webcontainers [FileSystemTree](https://webcontainers.io/api#filesystemtree) structure.
